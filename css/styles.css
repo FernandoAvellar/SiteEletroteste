@@ -1,0 +1,112 @@
+/*Header*/
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  background-color: #6666ff;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-default .navbar-collapse {
+	padding-bottom: 10px;
+    padding-top: 10px;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #000;
+	text-align: center;
+	font-size: 1.2em;
+}
+h1 {
+	background-color: blue;
+}
+#logo-img {
+	background: url('../images/Logo_300px.png') no-repeat;
+	width: 300px;
+	height: 55px;
+	margin: 20px 15px 10px 0;
+}
+.navbar-header button.navbar-toggle {
+	border: 1px solid white;
+	margin-top: 20px;
+}
+/*END Header*/
+
+/*Footer*/
+.panel-footer {
+	background-color: #6666ff;
+	font-size: 14px;
+}
+section span {
+	font-weight: bold;
+}
+/*END Footer*/
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+	/*Eletroteste Brand*/
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+	    margin-left: -15px;
+	    margin-top: 5px;
+	    padding: 0;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/*Eletroteste Brand*/
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+	    margin-left: -15px;
+	    margin-top: 5px;
+	    padding: 0;
+	}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	/*Eletroteste Brand*/
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+	    margin-left: -15px;
+	    margin-top: 5px;
+	    padding: 0;
+	}
+	#logo-img {
+		background: url('../images/Logo_200px.png') no-repeat;
+		width: 200px;
+		height: 37px;
+		margin: 27px 15px 10px 0;
+	}
+	.navbar-default .navbar-nav>li>a {
+	font-size: 1.0em;
+	}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	/*Eletroteste Brand*/
+	.navbar-default .navbar-brand {
+		padding: 0px;
+	}
+	#telefone, #endereco, #horas {
+		text-align: center;
+	}
+	#logo-img {
+	background: url('../images/Logo_200px.png') no-repeat;
+	width: 200px;
+	height: 37px;
+	margin: 12px 15px 10px 20px;
+	}
+}
+
+/********** Super Extra small devices only (e.g., Iphone 4) **********/
+@media (max-width: 479px) {
+	#logo-img {
+	background: url('../images/Logo_200px.png') no-repeat;
+	width: 200px;
+	height: 37px;
+	margin: 12px 15px 10px 20px;
+	}
+}
