@@ -13,6 +13,7 @@ body {
 .navbar-default .navbar-collapse {
 	padding-bottom: 10px;
     padding-top: 10px;
+    padding-right: 0px;
 }
 .navbar-default .navbar-nav>li>a {
 	color: #000;
@@ -29,8 +30,11 @@ h1 {
 	margin: 20px 15px 10px 0;
 }
 .navbar-header button.navbar-toggle {
-	border: 1px solid white;
+	border: 2px solid black;
 	margin-top: 20px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
 }
 /*END Header*/
 
@@ -41,6 +45,14 @@ h1 {
 }
 section span {
 	font-weight: bold;
+}
+div.text-center {
+	margin-top: 10px;
+}
+hr.visible-xs {
+	border-color: black;	 //Chrome
+	background-color: black; //Safari e Firefox
+
 }
 /*END Footer*/
 
@@ -53,6 +65,15 @@ section span {
 	    margin-top: 5px;
 	    padding: 0;
 	}
+
+	/*FOOTER*/
+	section#telefone {
+		text-align: right;
+	}
+	section#endereco {
+		text-align: center;
+	}
+	/*END FOOTER*/
 }
 
 /********** Medium devices only **********/
@@ -63,6 +84,15 @@ section span {
 	    margin-top: 5px;
 	    padding: 0;
 	}
+
+	/*FOOTER*/
+	section#telefone {
+		text-align: right;
+	}
+	section#endereco {
+		text-align: center;
+	}
+	/*END FOOTER*/	
 }
 
 /********** Small devices only **********/
@@ -74,14 +104,22 @@ section span {
 	    padding: 0;
 	}
 	#logo-img {
-		background: url('../images/Logo_200px.png') no-repeat;
-		width: 200px;
-		height: 37px;
+		background: url('../images/Logo_250px.png') no-repeat;
+		width: 250px;
+		height: 46px;
 		margin: 27px 15px 10px 0;
 	}
 	.navbar-default .navbar-nav>li>a {
 		font-size: 1.0em;
 	}
+	/*FOOTER*/
+	section#telefone {
+		text-align: right;
+	}
+	section#endereco {
+		text-align: center;
+	}
+	/*END FOOTER*/	
 }
 
 /********** Extra small devices only **********/
@@ -94,9 +132,9 @@ section span {
 		text-align: center;
 	}
 	#logo-img {
-		background: url('../images/Logo_200px.png') no-repeat;
-		width: 200px;
-		height: 37px;
+		background: url('../images/Logo_250px.png') no-repeat;
+		width: 250px;
+		height: 46px;
 		margin: 12px 15px 5px 20px;
 	}
 	div.navbar-header {
@@ -110,6 +148,7 @@ section span {
 		padding-bottom: 0px;
     	padding-top: 0px;
 	}
+
 }
 
 /********** Super Extra small devices only (e.g., Iphone 4) **********/
