@@ -145,10 +145,9 @@ hr.visible-xs {
 		font-size: 0.9em;
 	}
 	div#collapsable-nav.navbar-collapse {
-		padding-bottom: 0px;
-    	padding-top: 0px;
+		border: 0;
+		padding: 0;
 	}
-
 }
 
 /********** Super Extra small devices only (e.g., Iphone 4) **********/
