@@ -1,12 +1,12 @@
 /*Header*/
 body {
-  font-size: 16px;
+  font-size: 14px;
   color: #000;
-  background-color: #000046;
+  background-color: #E7E7E7;
   font-family: 'Oxygen', sans-serif;
 }
 #header-nav {
-  background-color: #6487D0;
+  background-color: #336699;
   border-radius: 0;
   border: 0;
 }
@@ -37,9 +37,9 @@ body {
 
 /*Footer*/
 .panel-footer {
-  	background-color: #6487D0;
+  	background-color: #336699;
   	background-color: 
-	font-size: 14px;
+	font-size: 12px;
 }
 section span {
 	font-weight: bold;
@@ -55,15 +55,15 @@ hr.visible-xs {
 /*END Footer*/
 /*Main Page*/
 .container .jumbotron {
-  box-shadow: 0 0 50px black;
-  border: 2px solid black;
+  box-shadow: 0 0 50px #E7E7E7;
+  border: 2px solid #E7E7E7;
 }
 #produto-tile, #contato-tile, #mapa-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid black;
+  border: 2px solid #E7E7E7;
   overflow: hidden;
 }
 #produto-tile:hover, #contato-tile:hover, #mapa-tile:hover {
