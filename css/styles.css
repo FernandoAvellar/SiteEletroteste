@@ -2,11 +2,11 @@
 body {
   font-size: 16px;
   color: #000;
-  background-color: #fff;
+  background-color: white;
   font-family: 'Oxygen', sans-serif;
 }
 #header-nav {
-  background-color: #6666ff;
+  background-color: #6487FF;
   border-radius: 0;
   border: 0;
 }
@@ -19,9 +19,6 @@ body {
 	color: #000;
 	text-align: center;
 	font-size: 1.2em;
-}
-h1 {
-	background-color: blue;
 }
 #logo-img {
 	background: url('../images/Logo_300px.png') no-repeat;
@@ -40,7 +37,7 @@ h1 {
 
 /*Footer*/
 .panel-footer {
-	background-color: #6666ff;
+  	background-color: #6487FF;
 	font-size: 14px;
 }
 section span {
@@ -59,6 +56,37 @@ hr.visible-xs {
 .container .jumbotron {
   box-shadow: 0 0 50px black;
   border: 2px solid black;
+}
+#produto-tile, #contato-tile, #mapa-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+}
+#produto-tile:hover, #contato-tile:hover, #mapa-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#produto-tile {
+  background: url('../images/produto-tile.jpg') no-repeat;
+  background-position: center;
+}
+#contato-tile {
+  background: url('../images/contato-tile.jpg') no-repeat;
+  background-position: center;
+}
+#produto-tile span, #contato-tile span, #mapa-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
 }
 /*END Main Page*/
 
