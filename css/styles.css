@@ -55,17 +55,23 @@ hr.visible-xs {
 
 }
 /*END Footer*/
+/*Main Page*/
+.container .jumbotron {
+  box-shadow: 0 0 50px black;
+  border: 2px solid black;
+}
+/*END Main Page*/
 
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-	/*Eletroteste Brand*/
+	/*Header*/
 	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
 	    margin-left: -15px;
 	    margin-top: 5px;
 	    padding: 0;
 	}
-
+	/*End Header*/
 	/*FOOTER*/
 	section#telefone {
 		text-align: right;
@@ -74,6 +80,12 @@ hr.visible-xs {
 		text-align: center;
 	}
 	/*END FOOTER*/
+	/*Home Page*/
+	.container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 677px;
+  	}
+  	/*END Home Page*/
 }
 
 /********** Medium devices only **********/
@@ -93,6 +105,13 @@ hr.visible-xs {
 		text-align: center;
 	}
 	/*END FOOTER*/	
+
+	/*Home Page*/
+	.container .jumbotron {
+	    background: url('../images/jumbotron_992.jpg') no-repeat;
+	    height: 560px;
+	}
+  	/* End Home Page */
 }
 
 /********** Small devices only **********/
@@ -120,6 +139,12 @@ hr.visible-xs {
 		text-align: center;
 	}
 	/*END FOOTER*/	
+	/*Home Page*/
+  	.container .jumbotron {
+    	background: url('../images/jumbotron_768.jpg') no-repeat;
+    	height: 434px;
+  	}
+  /* End Home Page */
 }
 
 /********** Extra small devices only **********/
@@ -138,8 +163,8 @@ hr.visible-xs {
 		margin: 12px 15px 5px 20px;
 	}
 	div.navbar-header {
-		margin-top: 20px;
-	    margin-bottom: 20px;
+		margin-top: 15px;
+	    margin-bottom: 15px;
 	}
 	.navbar-default .navbar-nav>li>a {
 		font-size: 0.9em;
@@ -148,6 +173,12 @@ hr.visible-xs {
 		border: 0;
 		padding: 0;
 	}
+	/* Home Page */
+	 .container .jumbotron {
+	    margin-top: 0;
+	    padding: 0;
+	}
+	/*END Home*/
 }
 
 /********** Super Extra small devices only (e.g., Iphone 4) **********/
