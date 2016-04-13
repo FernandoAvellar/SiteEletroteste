@@ -2,11 +2,11 @@
 body {
   font-size: 16px;
   color: #000;
-  background-color: white;
+  background-color: #000046;
   font-family: 'Oxygen', sans-serif;
 }
 #header-nav {
-  background-color: #6487FF;
+  background-color: #6487D0;
   border-radius: 0;
   border: 0;
 }
@@ -37,7 +37,8 @@ body {
 
 /*Footer*/
 .panel-footer {
-  	background-color: #6487FF;
+  	background-color: #6487D0;
+  	background-color: 
 	font-size: 14px;
 }
 section span {
@@ -47,8 +48,8 @@ div.text-center {
 	margin-top: 10px;
 }
 hr.visible-xs {
-	border-color: black;	 //Chrome
-	background-color: black; //Safari e Firefox
+	border-color: black;	  /*Chrome*/
+	background-color: black;  /*Safari e Firefox*/
 
 }
 /*END Footer*/
@@ -69,11 +70,11 @@ hr.visible-xs {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #produto-tile {
-  background: url('../images/produto-tile.jpg') no-repeat;
+  background: url('../images/produto-tile-250px.jpg') no-repeat;
   background-position: center;
 }
 #contato-tile {
-  background: url('../images/contato-tile.jpg') no-repeat;
+  background: url('../images/contato-tile-250px.jpg') no-repeat;
   background-position: center;
 }
 #produto-tile span, #contato-tile span, #mapa-tile span {
