@@ -21,9 +21,9 @@ body {
 	font-size: 1.2em;
 }
 #logo-img {
-	background: url('../images/Logo_300px.png') no-repeat;
-	width: 300px;
-	height: 55px;
+	background: url('../images/Logo_250px.png') no-repeat;
+	width: 250px;
+	height: 46px;
 	margin: 20px 15px 10px 0;
 }
 .navbar-header button.navbar-toggle {
@@ -63,11 +63,11 @@ hr.visible-xs {
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #E7E7E7;
+  border: 2px solid #7f7f7f;
   overflow: hidden;
 }
 #produto-tile:hover, #contato-tile:hover, #mapa-tile:hover {
-  box-shadow: 0 1px 5px 1px #cccccc;
+  box-shadow: 0 1px 5px 1px #004080;
 }
 #produto-tile {
   background: url('../images/produto-tile.jpg') no-repeat;
@@ -112,7 +112,7 @@ hr.visible-xs {
 	/*Home Page*/
 	.container .jumbotron {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
-    height: 450px;
+    height: 677px;
   	}
   	/*END Home Page*/
 }
@@ -208,6 +208,11 @@ hr.visible-xs {
 	    padding: 0;
 	}
 	/*END Home*/
+	/*MAIN PAGE*/
+	#produto-tile, #contato-tile {
+		width: 360px;
+		margin: 0 auto 15px;
+	}
 }
 
 /********** Super Extra small devices only (e.g., Iphone 4) **********/
