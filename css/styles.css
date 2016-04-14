@@ -55,6 +55,11 @@ section#pagamento a {
 	color: black;
 	text-decoration: underline;
 }
+img {
+	height: 45px;
+    border: 2px solid #336699;
+    padding: 5px;
+}
 /*END Footer*/
 /*Main Page*/
 .container .jumbotron {
