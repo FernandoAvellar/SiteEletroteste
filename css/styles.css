@@ -231,4 +231,21 @@ section#pagamento a {
 
 /********** Super Extra small devices only (e.g., Iphone 4) **********/
 @media (max-width: 479px) {
+  	/* Home Page */
+	  #produto-tile, #contato-tile {
+	    width: 280px;
+	    margin: 0 auto 15px;
+	  }
+	  /* End Home Page */
+	  /*Product Page*/
+/*	   .col-xxs-12 {
+	    position: relative;
+	    min-height: 1px;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    float: left;
+	    width: 100%
+	  }*/
+	  /*END Product Page*/
+	  
 }
