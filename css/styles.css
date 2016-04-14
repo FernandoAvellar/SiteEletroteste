@@ -50,7 +50,10 @@ div.text-center {
 hr.visible-xs {
 	border-color: black;	  /*Chrome*/
 	background-color: black;  /*Safari e Firefox*/
-
+}
+section#pagamento a {
+	color: black;
+	text-decoration: underline;
 }
 /*END Footer*/
 /*Main Page*/
@@ -102,10 +105,13 @@ hr.visible-xs {
 	}
 	/*End Header*/
 	/*FOOTER*/
-	section#telefone {
+	section#pagamento {
 		text-align: right;
 	}
 	section#endereco {
+		text-align: center;
+	}
+	section#telefone {
 		text-align: center;
 	}
 	/*END FOOTER*/
@@ -127,8 +133,11 @@ hr.visible-xs {
 	}
 
 	/*FOOTER*/
-	section#telefone {
+	section#pagamento {
 		text-align: right;
+	}
+	section#telefone {
+		text-align: center;
 	}
 	section#endereco {
 		text-align: center;
@@ -161,8 +170,11 @@ hr.visible-xs {
 		font-size: 1.0em;
 	}
 	/*FOOTER*/
-	section#telefone {
+	section#pagamento {
 		text-align: right;
+	}
+	section#telefone {
+		text-align: center;
 	}
 	section#endereco {
 		text-align: center;
@@ -178,12 +190,9 @@ hr.visible-xs {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-	/*Eletroteste Brand*/
+	/*HEADER*/
 	.navbar-default .navbar-brand {
 		padding: 0px;
-	}
-	#telefone, #endereco, #horas {
-		text-align: center;
 	}
 	#logo-img {
 		background: url('../images/Logo_200px.png') no-repeat;
@@ -202,17 +211,22 @@ hr.visible-xs {
 		border: 0;
 		padding: 0;
 	}
-	/* Home Page */
+	/*END HEADER*/
+	/*FOOTER*/
+	#telefone, #endereco, #horas, #pagamento {
+		text-align: center;
+	}
+	/*END FOOTER*/
+	/* HOME Page */
 	 .container .jumbotron {
 	    margin-top: 0;
 	    padding: 0;
 	}
-	/*END Home*/
-	/*MAIN PAGE*/
 	#produto-tile, #contato-tile {
 		width: 360px;
 		margin: 0 auto 15px;
 	}
+	/*END Home*/
 }
 
 /********** Super Extra small devices only (e.g., Iphone 4) **********/
