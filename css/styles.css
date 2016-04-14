@@ -1,7 +1,7 @@
 /*Header*/
 body {
   font-size: 14px;
-  color: #000;
+  color: white;
   background-color: #E7E7E7;
   font-family: 'Oxygen', sans-serif;
 }
@@ -16,9 +16,12 @@ body {
     padding-right: 0px;
 }
 .navbar-default .navbar-nav>li>a {
-	color: #000;
+	color: white;
 	text-align: center;
 	font-size: 1.2em;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: black;
 }
 #logo-img {
 	background: url('../images/Logo_250px.png') no-repeat;
@@ -27,18 +30,28 @@ body {
 	margin: 20px 15px 10px 0;
 }
 .navbar-header button.navbar-toggle {
-	border: 2px solid black;
+	border: 2px solid white;
 	margin-top: 20px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: black;
+    background-color: white;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #6699cc;
+}
+.navbar-default .navbar-nav>.active>a {
+	color: white;
+  	background-color: #6699cc;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+	color: black;
+	background-color: #6699cc;
 }
 /*END Header*/
 
 /*Footer*/
 .panel-footer {
   	background-color: #336699;
-  	background-color: 
 	font-size: 12px;
 }
 section span {
@@ -47,18 +60,22 @@ section span {
 div.text-center {
 	margin-top: 10px;
 }
-hr.visible-xs {
-	border-color: black;	  /*Chrome*/
-	background-color: black;  /*Safari e Firefox*/
+.panel-footer div hr {
+	border-color: white;	  /*Chrome*/
+	background-color: white;  /*Safari e Firefox*/
+	width: 50%;
+	border-top: 2px solid white;
 }
 section#pagamento a {
-	color: black;
+	color: white;
 	text-decoration: underline;
 }
+#endereco, #horas, #telefone, #pagamento {
+	line-height: 2;
+}
 img#googlelogo, img#facelogo, img#linkedinlogo {
-	height: 45px;
+	height: 35px;
     border: 2px solid #336699;
-    padding: 5px;
 }
 /*END Footer*/
 /*Main Page*/
@@ -110,15 +127,6 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 	}
 	/*End Header*/
 	/*FOOTER*/
-	section#pagamento {
-		text-align: right;
-	}
-	section#endereco {
-		text-align: center;
-	}
-	section#telefone {
-		text-align: center;
-	}
 	/*END FOOTER*/
 	/*Home Page*/
 	.container .jumbotron {
@@ -138,15 +146,6 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 	}
 
 	/*FOOTER*/
-	section#pagamento {
-		text-align: right;
-	}
-	section#telefone {
-		text-align: center;
-	}
-	section#endereco {
-		text-align: center;
-	}
 	/*END FOOTER*/	
 
 	/*Home Page*/
@@ -175,15 +174,6 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 		font-size: 1.0em;
 	}
 	/*FOOTER*/
-	section#pagamento {
-		text-align: right;
-	}
-	section#telefone {
-		text-align: center;
-	}
-	section#endereco {
-		text-align: center;
-	}
 	/*END FOOTER*/	
 	/*Home Page*/
   	.container .jumbotron {
