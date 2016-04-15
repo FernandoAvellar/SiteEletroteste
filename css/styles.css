@@ -6,7 +6,7 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 #header-nav {
-  background-color: #336699;
+  background-color: #495678;
   border-radius: 0;
   border: 0;
 }
@@ -51,7 +51,7 @@ body {
 
 /*Footer*/
 .panel-footer {
-  	background-color: #336699;
+  	background-color: #495678;
 	font-size: 12px;
 }
 section span {
@@ -76,7 +76,7 @@ section#pagamento a {
 }
 img#googlelogo, img#facelogo, img#linkedinlogo {
 	height: 35px;
-    border: 2px solid #336699;
+    border: 2px solid #495678;
 }
 /*END Footer*/
 /*Main Page*/
