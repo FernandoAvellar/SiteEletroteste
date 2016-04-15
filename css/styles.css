@@ -211,6 +211,10 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 	#telefone, #endereco, #horas, #pagamento {
 		text-align: center;
 	}
+	div.text-center {
+		margin-top: 20px;
+		font-size: 1.3em;
+	}
 	/*END FOOTER*/
 	/* HOME Page */
 	 .container .jumbotron {
