@@ -30,7 +30,7 @@ body {
 	margin: 20px 15px 10px 0;
 }
 .navbar-header button.navbar-toggle {
-	border: 2px solid white;
+	border: 1px solid white;
 	margin-top: 20px;
 }
 .navbar-default .navbar-toggle .icon-bar {
@@ -145,10 +145,8 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 	    margin-top: 5px;
 	    padding: 0;
 	}
-
 	/*FOOTER*/
 	/*END FOOTER*/	
-
 	/*Home Page*/
 	.container .jumbotron {
 	    background: url('../images/jumbotron_992.jpg') no-repeat;
