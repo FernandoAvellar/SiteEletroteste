@@ -56,6 +56,7 @@ body {
 }
 section span {
 	font-weight: bold;
+	font-size: 1.2em;
 }
 div.text-center {
 	margin-top: 10px;
@@ -151,7 +152,7 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 	/*Home Page*/
 	.container .jumbotron {
 	    background: url('../images/jumbotron_992.jpg') no-repeat;
-	    height: 390px;
+	    height: 399px;
 	}
   	/* End Home Page */
 }
@@ -174,6 +175,9 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 		font-size: 1.0em;
 	}
 	/*FOOTER*/
+	section span {
+	font-size: 1em;
+}
 	/*END FOOTER*/	
 	/*Home Page*/
   	.container .jumbotron {
