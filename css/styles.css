@@ -37,15 +37,15 @@ body {
     background-color: white;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-	background-color: #6699cc;
+	background-color: #3C648E;
 }
 .navbar-default .navbar-nav>.active>a {
 	color: white;
-  	background-color: #6699cc;
+  	background-color: #3C648E;
 }
 .navbar-default .navbar-nav>.active>a:hover {
 	color: black;
-	background-color: #6699cc;
+	background-color: #3C648E;
 }
 /*END Header*/
 
