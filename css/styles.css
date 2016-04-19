@@ -150,7 +150,7 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 	/*Home Page*/
 	.container .jumbotron {
 	    background: url('../images/jumbotron_992.jpg') no-repeat;
-	    height: 399px;
+	    height: 390px;
 	}
   	/* End Home Page */
 }
