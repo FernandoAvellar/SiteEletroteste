@@ -117,7 +117,6 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 }
 /*END Main Page*/
 
-
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	/*Header*/
@@ -135,6 +134,15 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
     height: 472px;
   	}
   	/*END Home Page*/
+  	/*Product Page*/
+	div.thumbnail {
+		height: 510px;
+	}
+	a.btn.btn-primary {
+		position: absolute;
+		bottom: 30px;
+	}
+	/*END Product Page*/
 }
 
 /********** Medium devices only **********/
@@ -153,6 +161,17 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 	    height: 390px;
 	}
   	/* End Home Page */
+  	/*Product Page*/
+	div.thumbnail {
+		height: 450px;
+	}
+	a.btn.btn-primary {
+		position: absolute;
+		bottom: 30px;
+		padding: 3px 6px;
+
+	}
+	/*END Product Page*/
 }
 
 /********** Small devices only **********/
@@ -183,6 +202,16 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
     	height: 302px;
   	}
   /* End Home Page */
+  /*Product Page*/
+	div.thumbnail {
+		height: 480px;
+	}
+	a.btn.btn-primary {
+		position: absolute;
+		bottom: 30px;
+		padding: 3px 6px;
+	}
+	/*END Product Page*/
 }
 
 /********** Extra small devices only **********/
