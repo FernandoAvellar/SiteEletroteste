@@ -116,7 +116,6 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
   opacity: .8;
 }
 /*END Main Page*/
-
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	/*Header*/
