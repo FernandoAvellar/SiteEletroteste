@@ -142,6 +142,11 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 		bottom: 30px;
 	}
 	/*END Product Page*/
+	/*Contact Page*/
+	div#contact.thumbnail {
+		height: 530px;
+	}
+	/*End Contact Page*/
 }
 
 /********** Medium devices only **********/
@@ -171,6 +176,11 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 
 	}
 	/*END Product Page*/
+	/*Contact Page*/
+	div#contact.thumbnail {
+		height: 480px;
+	}
+	/*End Contact Page*/
 }
 
 /********** Small devices only **********/
@@ -211,6 +221,13 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 		padding: 3px 6px;
 	}
 	/*END Product Page*/
+	/*Contact Page*/
+	div#contact.thumbnail {
+		height: 420px;
+		font-size: 0.9em;
+		text-align: center;
+	}
+	/*End Contact Page*/	
 }
 
 /********** Extra small devices only **********/
@@ -256,6 +273,15 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 		margin: 0 auto 15px;
 	}
 	/*END Home*/
+	/*Contact Page*/
+	div#contact.thumbnail {
+		height: 480px;
+		text-align: center;
+		background-color: #E7E7E7;
+		border: 2px solid #E7E7E7;
+	}
+	/*End Contact Page*/
+
 }
 
 /********** Super Extra small devices only (e.g., Iphone 4) **********/
@@ -265,16 +291,11 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 	    width: 280px;
 	    margin: 0 auto 15px;
 	  }
-	  /* End Home Page */
-	  /*Product Page*/
-/*	   .col-xxs-12 {
-	    position: relative;
-	    min-height: 1px;
-	    padding-right: 15px;
-	    padding-left: 15px;
-	    float: left;
-	    width: 100%
-	  }*/
-	  /*END Product Page*/
-	  
+	/*Contact Page*/
+	div#contact.thumbnail {
+		height: 460px;
+		font-size: 0.9em;
+		text-align: center;
+	}
+	/*End Contact Page*/	  
 }
