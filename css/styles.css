@@ -143,8 +143,8 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 	}
 	/*END Product Page*/
 	/*Contact Page*/
-	div#contact.thumbnail {
-		height: 530px;
+	div#contact-tel.thumbnail, div#contact-mail.thumbnail, div#contact-end.thumbnail {
+		height: 520px;
 	}
 	/*End Contact Page*/
 }
@@ -177,7 +177,7 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 	}
 	/*END Product Page*/
 	/*Contact Page*/
-	div#contact.thumbnail {
+	div#contact-tel.thumbnail, div#contact-mail.thumbnail, div#contact-end.thumbnail {
 		height: 480px;
 	}
 	/*End Contact Page*/
@@ -222,7 +222,7 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 	}
 	/*END Product Page*/
 	/*Contact Page*/
-	div#contact.thumbnail {
+	div#contact-tel.thumbnail, div#contact-mail.thumbnail, div#contact-end.thumbnail {
 		height: 420px;
 		font-size: 0.9em;
 		text-align: center;
@@ -274,14 +274,21 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 	}
 	/*END Home*/
 	/*Contact Page*/
-	div#contact.thumbnail {
-		height: 480px;
+	div#contact-tel.thumbnail, div#contact-mail.thumbnail, div#contact-end.thumbnail {
 		text-align: center;
 		background-color: #E7E7E7;
 		border: 2px solid #E7E7E7;
 	}
+	div#contact-tel.thumbnail {
+		height: 400px;
+	}
+	div#contact-mail.thumbnail {
+		height: 460px;
+	}
+	div#contact-end.thumbnail {
+		height: 380px;
+	}
 	/*End Contact Page*/
-
 }
 
 /********** Super Extra small devices only (e.g., Iphone 4) **********/
@@ -292,10 +299,17 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 	    margin: 0 auto 15px;
 	  }
 	/*Contact Page*/
-	div#contact.thumbnail {
-		height: 460px;
+	div#contact-tel.thumbnail, div#contact-mail.thumbnail, div#contact-end.thumbnail {
 		font-size: 0.9em;
-		text-align: center;
+	}
+	div#contact-tel.thumbnail {
+		height: 380px;
+	}
+	div#contact-mail.thumbnail {
+		height: 460px;
+	}
+	div#contact-end.thumbnail {
+		height: 360px;
 	}
 	/*End Contact Page*/	  
 }
