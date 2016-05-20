@@ -116,6 +116,15 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
   opacity: .8;
 }
 /*END Main Page*/
+/*About PAGE*/
+div.panel-body p {
+	color: black;
+}
+.panel-default>.panel-heading {
+	background-color: #495678;
+	color: white;
+}
+/*END About PAGE*/
 /********** Large devices only **********/
 @media (min-width: 1200px) {
 	/*Header*/
