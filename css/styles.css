@@ -124,6 +124,12 @@ div.panel-body p {
 	background-color: #495678;
 	color: white;
 }
+img#madeinbrasil {
+	float: left;
+	clear: left;
+	height: 150px;
+	margin: 5px;
+}
 /*END About PAGE*/
 /********** Large devices only **********/
 @media (min-width: 1200px) {
