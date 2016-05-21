@@ -123,12 +123,10 @@ div.panel-body p {
 .panel-default>.panel-heading {
 	background-color: #495678;
 	color: white;
+	text-transform: uppercase;
 }
-img#madeinbrasil {
-	float: left;
-	clear: left;
-	height: 150px;
-	margin: 5px;
+p.navbar-text {
+	text-align: justify;
 }
 /*END About PAGE*/
 /********** Large devices only **********/
