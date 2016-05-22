@@ -120,6 +120,10 @@ img#googlelogo, img#facelogo, img#linkedinlogo {
 div.panel-body p {
 	color: black;
 }
+ div.panel-body ul, div.panel-body li  {
+	color: black;
+	overflow: hidden;
+}
 .panel-default>.panel-heading {
 	background-color: #495678;
 	color: white;
