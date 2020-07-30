@@ -51,7 +51,7 @@ body {
 
 /*Footer*/
 .panel-footer {
-  	background-color: #495678;
+  background-color: #495678;
 	font-size: 12px;
 }
 section span {
@@ -70,6 +70,9 @@ div.text-center {
 section#pagamento a {
 	color: white;
 	text-decoration: underline;
+}
+section#telefone a {
+	color: white;
 }
 #endereco, #horas, #telefone, #pagamento {
 	line-height: 2;
