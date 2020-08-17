@@ -77,7 +77,7 @@ section#telefone a {
 #endereco, #horas, #telefone, #pagamento {
 	line-height: 2;
 }
-img#instagramlogo, img#facelogo, img#linkedinlogo {
+img#instagramlogo, img#facelogo, img#linkedinlogo, img#whatsApplogo {
 	height: 35px;
     border: 2px solid #495678;
 }
