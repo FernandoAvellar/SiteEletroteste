@@ -1,137 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Eletroteste</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-</head>
-<body>
-
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="index.html" class="pull-left">
-            <div id="logo-img" alt="Logo image"></div>
-          </a>
-          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div id="collapsable-nav" class="navbar-collapse collapse">
-          <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li id="navHomeBotao" class="active">
-              <a href="index.html">
-                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
-            </li>
-            <li id="navProdutoBotao">
-              <a href="produtos.html">
-                <span class="glyphicon glyphicon-th"></span><br class="hidden-xs"> Produtos</a>
-            </li>
-            <li id="navSobreBotao">
-              <a href="sobre.html">
-                <span class="glyphicon glyphicon-star"></span><br class="hidden-xs"> Sobre</a>
-            </li>
-            <li id="navAssistenciaBotao">
-              <a href="assistencia.html">
-                <span class="glyphicon glyphicon-wrench"></span><br class="hidden-xs"> Assistência</a>
-            </li>
-            <li id="navContatosBotao">
-              <a href="contatos.html">
-                <span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs"> Contatos</a>
-            </li>
-          </ul> <!-- #nav-list -->
-        </div> <!-- .collapse .navbar-collapse -->
-       </div> <!-- .container -->
-    </nav> <!-- #header-nav -->
-  </header>
-
-  <div id="main-content" class="container">
-    <div class="jumbotron">
-      <img src="images/jumbotron_768.jpg" alt="Imagem principal com alguns produtos." class="img-responsive visible-xs">
-    </div>
-    <div id="home-tiles" class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="produtos.html"><div id="produto-tile"><span>Produtos</span></div></a>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="contatos.html">
-          <div id="contato-tile"><span>Contatos</span></div>
-        </a>
-      </div>
-      <div class="col-md-4 col-sm-12 col-xs-12">
-        <a href="https://www.google.com.br/maps/place/R.+Jos%C3%A9+Pinto+Vilela,+474+-+Oz%C3%B3rio+Machado,+Santa+Rita+do+Sapuca%C3%AD+-+MG,+37540-000/@-22.2485215,-45.7093803,17.25z/data=!4m2!3m1!1s0x94cba2537910fae9:0xd9a1c9182be0082?hl=en" target="_blank">
-          <div id="mapa-tile">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3692.777442080449!2d-45.7093803!3d-22.2485215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cba2537910fae9%3A0xd9a1c9182be0082!2sR.+Jos%C3%A9+Pinto+Vilela%2C+474+-+Oz%C3%B3rio+Machado%2C+Santa+Rita+do+Sapuca%C3%AD+-+MG%2C+37540-000!5e0!3m2!1sen!2sbr!4v1460550007269" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <span>Localização</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eletroteste</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen:400,700,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="index.html" class="pull-left">
+              <div id="logo-img" alt="Logo image"></div>
+            </a>
+            <button
+              id="navbarToggle"
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#collapsable-nav"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
           </div>
-        </a>
+          <div id="collapsable-nav" class="navbar-collapse collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li id="navHomeBotao" class="active">
+                <a href="index.html">
+                  <span class="glyphicon glyphicon-home"></span
+                  ><br class="hidden-xs" />
+                  Home</a
+                >
+              </li>
+              <li id="navProdutoBotao">
+                <a href="produtos.html">
+                  <span class="glyphicon glyphicon-th"></span
+                  ><br class="hidden-xs" />
+                  Produtos</a
+                >
+              </li>
+              <li id="navSobreBotao">
+                <a href="sobre.html">
+                  <span class="glyphicon glyphicon-star"></span
+                  ><br class="hidden-xs" />
+                  Sobre</a
+                >
+              </li>
+              <li id="navAssistenciaBotao">
+                <a href="assistencia.html">
+                  <span class="glyphicon glyphicon-wrench"></span
+                  ><br class="hidden-xs" />
+                  Assistência</a
+                >
+              </li>
+              <li id="navContatosBotao">
+                <a href="contatos.html">
+                  <span class="glyphicon glyphicon-envelope"></span
+                  ><br class="hidden-xs" />
+                  Contatos</a
+                >
+              </li>
+            </ul>
+            <!-- #nav-list -->
+          </div>
+          <!-- .collapse .navbar-collapse -->
+        </div>
+        <!-- .container -->
+      </nav>
+      <!-- #header-nav -->
+    </header>
+
+    <div id="main-content" class="container">
+      <div class="jumbotron">
+        <img
+          src="images/jumbotron_768.jpg"
+          alt="Imagem principal com alguns produtos."
+          class="img-responsive visible-xs"
+        />
       </div>
-    </div><!-- End of #home-tiles -->
-  </div><!-- End of #main-content -->
-
-  <footer class="panel-footer">
-    <div class="container">
-      <div class="row">
-      <section id="telefone" class="col-sm-3">
-          <span>Contatos:</span><br> 
-          (35) 3471-2123<br> 
-          (35) 3471-4244 <br>
-          <a href="https://wa.me/5535988054435" target="_blank"><img src="images/whatsapp-logo.png" id="whatsApplogo"> Fale conosco no WhatsApp</a><br>
-          eletro@eletroteste.com.br <br>
-          <div class="social-media">
-              <a href="https://www.facebook.com/eletrotestebrasil" target="_blank"><img src="images/socialmedia-facebook.png" id="facelogo" ></a>
-              <a href="https://www.instagram.com/eletroteste/" target="_blank"><img src="images/socialmedia-instagram.png" id="instagramlogo"></a>
-              <a href="https://www.linkedin.com/company/eletrotestebrasil" target="_blank"><img src="images/socialmedia-linkedin.png" id="linkedinlogo"></a>
+      <div id="home-tiles" class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <a href="produtos.html"
+            ><div id="produto-tile"><span>Produtos</span></div></a
+          >
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <a href="contatos.html">
+            <div id="contato-tile"><span>Contatos</span></div>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <a
+            href="https://www.google.com/maps/place/ELETROTESTE+IND+E+COM+LTDA/@-22.246412,-45.708897,15z/data=!4m6!3m5!1s0x94cba2fdceb70c69:0x3d823c2cfddf278e!8m2!3d-22.246412!4d-45.708897!16s%2Fg%2F1tp28ctj?hl=pt-BR&entry=ttu"
+            target="_blank"
+          >
+            <div id="mapa-tile">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3692.777442080449!2d-45.7093803!3d-22.2485215!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cba2537910fae9%3A0xd9a1c9182be0082!2sR.+Jos%C3%A9+Pinto+Vilela%2C+474+-+Oz%C3%B3rio+Machado%2C+Santa+Rita+do+Sapuca%C3%AD+-+MG%2C+37540-000!5e0!3m2!1sen!2sbr!4v1460550007269"
+                width="800"
+                height="600"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen
+              ></iframe>
+              <span>Localização</span>
             </div>
-          <hr class="visible-xs">
-        </section>
-        <section id="pagamento" class="col-sm-3">
-          <span>Aceitamos:</span><br> 
-          Todos cartões de crédito<br>
-          <a href="http://www.bb.com.br/portalbb/page44,108,3221,8,0,1,2.bb" target="_blank">Financiamento PROGER</a><br> 
-          <a href="https://www.cartaobndes.gov.br/cartaobndes/" target="_blank">FINAME e Cartão BNDES</a><br>
-          <a href="https://www.cartaobndes.gov.br/cartaobndes/" target="_blank"><img src="images/cartao-bndes.png" id="cartaobndes_logo"></a>
-          <hr class="visible-xs">
-        </section>
-        <section id="endereco" class="col-sm-3">
-          <span>Endereço:</span><br>
-            Rua José Pinto Vilela, 474 - Centro<br>
-            Santa Rita do Sapucaí - MG <br> 37540-000 <br>
-            <hr class="visible-xs">
-        </section>
-        <section id="horas" class="col-sm-3">
-          <span>Horário de Funcionamento:</span><br>
-            Segunda a Quinta: <br>
-            07:00h às 12:00h - 13:25h às 17:25h<br>
-            Sexta-feira: <br>
-            07:00h às 12:00h - 13:25h às 16:25h<br>
-        </section>
-      </div><!-- End of row -->
-      <div class="text-center">&copy;Copyright Eletroteste Ind. e Com. LTDA</div>
-    </div><!-- End of container -->
-  </footer>
-  
-   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script> 
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+          </a>
+        </div>
+      </div>
+      <!-- End of #home-tiles -->
+    </div>
+    <!-- End of #main-content -->
 
-  ga('create', 'UA-27463993-1', 'auto');
-  ga('send', 'pageview');
-</script>
-</body>
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section id="telefone" class="col-sm-3">
+            <span>Contatos:</span><br />
+            (35) 3471-2123<br />
+            (35) 3471-4244 <br />
+            <a href="https://wa.me/5535988054435" target="_blank"
+              ><img src="images/whatsapp-logo.png" id="whatsApplogo" /> Fale
+              conosco no WhatsApp</a
+            ><br />
+            eletro@eletroteste.com.br <br />
+            <div class="social-media">
+              <a
+                href="https://www.facebook.com/eletrotestebrasil"
+                target="_blank"
+                ><img src="images/socialmedia-facebook.png" id="facelogo"
+              /></a>
+              <a href="https://www.instagram.com/eletroteste/" target="_blank"
+                ><img src="images/socialmedia-instagram.png" id="instagramlogo"
+              /></a>
+              <a
+                href="https://www.linkedin.com/company/eletrotestebrasil"
+                target="_blank"
+                ><img src="images/socialmedia-linkedin.png" id="linkedinlogo"
+              /></a>
+            </div>
+            <hr class="visible-xs" />
+          </section>
+          <section id="pagamento" class="col-sm-3">
+            <span>Aceitamos:</span><br />
+            Todos cartões de crédito<br />
+            <a
+              href="https://www.cartaobndes.gov.br/cartaobndes/"
+              target="_blank"
+              >FINAME e Cartão BNDES</a
+            ><br />
+            <a
+              href="https://www.cartaobndes.gov.br/cartaobndes/"
+              target="_blank"
+              ><img src="images/cartao-bndes.png" id="cartaobndes_logo"
+            /></a>
+            <hr class="visible-xs" />
+          </section>
+          <section id="endereco" class="col-sm-3">
+            <span>Endereço:</span><br />
+            Rua José Pinto Vilela, 474 - Centro<br />
+            Santa Rita do Sapucaí - MG <br />
+            37536-094 <br />
+            <hr class="visible-xs" />
+          </section>
+          <section id="horas" class="col-sm-3">
+            <span>Horário de Funcionamento:</span><br />
+            Segunda a Quinta: <br />
+            07:00h às 12:00h - 13:30h às 17:30h<br />
+            Sexta-feira: <br />
+            07:00h às 12:00h - 13:30h às 16:30h<br />
+          </section>
+        </div>
+        <!-- End of row -->
+        <div class="text-center">
+          &copy;Copyright Eletroteste Ind. e Com. LTDA
+        </div>
+      </div>
+      <!-- End of container -->
+    </footer>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-27463993-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </body>
 </html>

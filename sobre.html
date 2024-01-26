@@ -1,200 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Eletroteste</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700,300' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-</head>
-<body>
-
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="index.html" class="pull-left">
-            <div id="logo-img" alt="Logo image"></div>
-          </a>
-          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eletroteste</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen:400,700,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="index.html" class="pull-left">
+              <div id="logo-img" alt="Logo image"></div>
+            </a>
+            <button
+              id="navbarToggle"
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#collapsable-nav"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="collapsable-nav" class="navbar-collapse collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li id="navHomeBotao">
+                <a href="index.html">
+                  <span class="glyphicon glyphicon-home"></span
+                  ><br class="hidden-xs" />
+                  Home</a
+                >
+              </li>
+              <li id="navProdutoBotao">
+                <a href="produtos.html">
+                  <span class="glyphicon glyphicon-th"></span
+                  ><br class="hidden-xs" />
+                  Produtos</a
+                >
+              </li>
+              <li id="navSobreBotao" class="active">
+                <a href="sobre.html">
+                  <span class="glyphicon glyphicon-star"></span
+                  ><br class="hidden-xs" />
+                  Sobre</a
+                >
+              </li>
+              <li id="navAssistenciaBotao">
+                <a href="assistencia.html">
+                  <span class="glyphicon glyphicon-wrench"></span
+                  ><br class="hidden-xs" />
+                  Assistência</a
+                >
+              </li>
+              <li id="navContatosBotao">
+                <a href="contatos.html">
+                  <span class="glyphicon glyphicon-envelope"></span
+                  ><br class="hidden-xs" />
+                  Contatos</a
+                >
+              </li>
+            </ul>
+            <!-- #nav-list -->
+          </div>
+          <!-- .collapse .navbar-collapse -->
         </div>
-        <div id="collapsable-nav" class="navbar-collapse collapse">
-          <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li id="navHomeBotao">
-              <a href="index.html">
-                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
-            </li>
-            <li id="navProdutoBotao">
-              <a href="produtos.html">
-                <span class="glyphicon glyphicon-th"></span><br class="hidden-xs"> Produtos</a>
-            </li>
-            <li id="navSobreBotao" class="active">
-              <a href="sobre.html">
-                <span class="glyphicon glyphicon-star"></span><br class="hidden-xs"> Sobre</a>
-            </li>
-            <li id="navAssistenciaBotao">
-              <a href="assistencia.html">
-                <span class="glyphicon glyphicon-wrench"></span><br class="hidden-xs"> Assistência</a>
-            </li>
-            <li id="navContatosBotao">
-              <a href="contatos.html">
-                <span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs"> Contatos</a>
-            </li>
-          </ul> <!-- #nav-list -->
-        </div> <!-- .collapse .navbar-collapse -->
-       </div> <!-- .container -->
-    </nav> <!-- #header-nav -->
-  </header>
+        <!-- .container -->
+      </nav>
+      <!-- #header-nav -->
+    </header>
 
-  <div id="FotosPaginaSobre" class="hidden-xs">
-    <img src="images/madeinbrasil.png" alt="madeinbrazil_picture" id="madeinbrazil">
-    <img src="images/iso9000.png" alt="iso9000_picture" id="iso9000">
-    <img src="images/sindvel.png" alt="sindivel_picture" id="sindivel">
-  </div> 
+    <div id="FotosPaginaSobre" class="hidden-xs">
+      <img
+        src="images/madeinbrasil.png"
+        alt="madeinbrazil_picture"
+        id="madeinbrazil"
+      />
+      <img src="images/iso9000.png" alt="iso9000_picture" id="iso9000" />
+      <img src="images/sindvel.png" alt="sindivel_picture" id="sindivel" />
+    </div>
 
-  <div id="main-content" class="container"> 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h3 class="panel-title">A empresa</h3>
-      </div>
+    <div id="main-content" class="container">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">A empresa</h3>
+        </div>
         <div class="panel-body">
-          <p class="navbar-text"> Fundada em 1988 pelo atual diretor, Waldir Reis, a ELETROTESTE fornece equipamentos especiais de teste e medidas para as companhias de eletricidade, produção de petróleo, engenharia de campo e outras. <br> <br>
-          Sempre atenta às novas tecnologias e tomando as diversas normas (IEC, ABNT, ASTM, JIS, UNE, BS, CEI, VDE, etc.) como ponto de referência, desenvolve e produz instrumentos de precisão para análise da operação de:</p>
-          
-            <ul>
-              <li>Disjuntores de potência;</li>
-              <li>Relés de proteção;</li>
-              <li>Geradores;</li>
-              <li>Transformadores;</li>
-              <li>Ensaios de isolação;</li>
-              <li>Testes de propriedades químicas e isolantes de fluídos.</li>
-            </ul> 
+          <p class="navbar-text">
+            Fundada em 1988 pelo atual diretor, Waldir Reis, a ELETROTESTE
+            fornece equipamentos especiais de teste e medidas para as companhias
+            de eletricidade, produção de petróleo, engenharia de campo e outras.
+            <br />
+            <br />
+            Sempre atenta às novas tecnologias e tomando as diversas normas
+            (IEC, ABNT, ASTM, JIS, UNE, BS, CEI, VDE, etc.) como ponto de
+            referência, desenvolve e produz instrumentos de precisão para
+            análise da operação de:
+          </p>
 
-            <p class="navbar-text">Atualmente produz também equipamentos para estabelecer requisitos de compatibilidade eletromagnética EMC na simulação de teste de impulso em análise de equipamentos de telecomunicações além de fontes de alimentação AC e DC para laboratórios.</p>
+          <ul>
+            <li>Disjuntores de potência;</li>
+            <li>Relés de proteção;</li>
+            <li>Geradores;</li>
+            <li>Transformadores;</li>
+            <li>Ensaios de isolação;</li>
+            <li>Testes de propriedades químicas e isolantes de fluídos.</li>
+          </ul>
 
+          <p class="navbar-text">
+            Atualmente produz também equipamentos para estabelecer requisitos de
+            compatibilidade eletromagnética EMC na simulação de teste de impulso
+            em análise de equipamentos de telecomunicações além de fontes de
+            alimentação AC e DC para laboratórios.
+          </p>
         </div>
-    </div>
+      </div>
 
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title">Missão</h3>
-    </div>
-    <div class="panel-body">
-      <p class="navbar-text">“Ser reconhecida como uma empresa de excelência por desenvolver, produzir e comercializar produtos de alta qualidade em todos os seus segmentos e se expandir no mercado, com o compromisso de aperfeiçoamento contínuo de seus produtos e desenvolvimento sustentável.”</p>
-    </div>
-  </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Missão</h3>
+        </div>
+        <div class="panel-body">
+          <p class="navbar-text">
+            “Ser reconhecida como uma empresa de excelência por desenvolver,
+            produzir e comercializar produtos de alta qualidade em todos os seus
+            segmentos e se expandir no mercado, com o compromisso de
+            aperfeiçoamento contínuo de seus produtos e desenvolvimento
+            sustentável.”
+          </p>
+        </div>
+      </div>
 
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title">Visão</h3>
-    </div>
-    <div class="panel-body">
-      <p class="navbar-text"> “Ser uma empresa líder de mercado e desenvolvimento tecnológico de produtos para testes e medidas de sistemas elétricos, segurança elétrica e controle de qualidade tendo como compromisso o bom relacionamento com seus colaboradores e clientes.”</p>
-    </div>
-  </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Visão</h3>
+        </div>
+        <div class="panel-body">
+          <p class="navbar-text">
+            “Ser uma empresa líder de mercado e desenvolvimento tecnológico de
+            produtos para testes e medidas de sistemas elétricos, segurança
+            elétrica e controle de qualidade tendo como compromisso o bom
+            relacionamento com seus colaboradores e clientes.”
+          </p>
+        </div>
+      </div>
 
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title">Valores</h3>
-    </div>
-    <div class="panel-body">
-      <p class="navbar-text"> "Respeito, Dedicação e Responsabilidade são os princípios que regem a ELETROTESTE."</p>
-    </div>
-  </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Valores</h3>
+        </div>
+        <div class="panel-body">
+          <p class="navbar-text">
+            "Respeito, Dedicação e Responsabilidade são os princípios que regem
+            a ELETROTESTE."
+          </p>
+        </div>
+      </div>
 
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title">Política da qualidade</h3>
-    </div>
-    <div class="panel-body">
-      <p class="navbar-text"> “Desenvolver, produzir e comercializar equipamentos de alta qualidade nas áreas em que atuamos através da melhoria contínua da eficácia do sistema de gestão da qualidade visando a satisfação dos clientes e colaboradores, inovação constante e sustentabilidade nos negócios.”</p>
-    </div>
-  </div> 
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Política da qualidade</h3>
+        </div>
+        <div class="panel-body">
+          <p class="navbar-text">
+            “Desenvolver, produzir e comercializar equipamentos de alta
+            qualidade nas áreas em que atuamos através da melhoria contínua da
+            eficácia do sistema de gestão da qualidade visando a satisfação dos
+            clientes e colaboradores, inovação constante e sustentabilidade nos
+            negócios.”
+          </p>
+        </div>
+      </div>
 
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title">Desenvolvimento</h3>
-    </div>
-      <div class="panel-body">
-      <p class="navbar-text">Todos os produtos de nossa fabricação tem desenvolvimento 100% nacional. Os softwares utilizados nos microcontroladores, os circuitos analógicos, lineares e placas de hardwares, todos desenvolvidos e programados pela ELETROTESTE.</p>
-    </div>
-  </div> 
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Desenvolvimento</h3>
+        </div>
+        <div class="panel-body">
+          <p class="navbar-text">
+            Todos os produtos de nossa fabricação tem desenvolvimento 100%
+            nacional. Os softwares utilizados nos microcontroladores, os
+            circuitos analógicos, lineares e placas de hardwares, todos
+            desenvolvidos e programados pela ELETROTESTE.
+          </p>
+        </div>
+      </div>
 
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title">Controle de qualidade</h3>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Controle de qualidade</h3>
+        </div>
+        <div class="panel-body">
+          <p class="navbar-text">
+            O C.Q da ELETROTESTE monitora todo o processo produtivo e antes de
+            ser liberado para o cliente, cada equipamento é submetido
+            individualmente a 48 horas de funcionamento contínuo e uma sequência
+            de inspeção, testes e medidas, gerando um relatório que acompanhe o
+            manual de utilização.<br /><br />
+            Ao detectar possíveis falhas ou pontos de melhorias, busca
+            juntamente com o cliente, a adequação das características técnicas e
+            operacionais dos equipamentos.<br /><br />
+            Os equipamentos de medidas utilizados na calibração e testes de
+            nossos produtos são de alta qualidade e rastreados por órgãos
+            qualificados.
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="panel-body">
-      <p class="navbar-text"> O C.Q da ELETROTESTE monitora todo o processo produtivo e antes de ser liberado para o cliente, cada equipamento é submetido individualmente a 48 horas de funcionamento contínuo e uma sequência de inspeção, testes e medidas, gerando um relatório que acompanhe o manual de utilização.<br><br>
-      Ao detectar possíveis falhas ou pontos de melhorias, busca juntamente com o cliente, a adequação das características técnicas e operacionais dos equipamentos.<br><br>
-      Os equipamentos de medidas utilizados na calibração e testes de nossos produtos são de alta qualidade e rastreados por órgãos qualificados.
-      </p>
-    </div>
-  </div> 
-</div> <!--End main Content-->
+    <!--End main Content-->
 
-  <footer class="panel-footer">
-    <div class="container">
-      <div class="row">
-      <section id="telefone" class="col-sm-3">
-          <span>Contatos:</span><br> 
-          (35) 3471-2123<br> 
-          (35) 3471-4244 <br>
-          <a href="https://wa.me/5535988054435" target="_blank"><img src="images/whatsapp-logo.png" id="whatsApplogo"> Fale conosco no WhatsApp</a><br>
-          eletro@eletroteste.com.br <br>
-          <div class="social-media">
-              <a href="https://www.facebook.com/eletrotestebrasil" target="_blank"><img src="images/socialmedia-facebook.png" id="facelogo" ></a>
-              <a href="https://www.instagram.com/eletroteste/" target="_blank"><img src="images/socialmedia-instagram.png" id="instagramlogo"></a>
-              <a href="https://www.linkedin.com/company/eletrotestebrasil" target="_blank"><img src="images/socialmedia-linkedin.png" id="linkedinlogo"></a>
+    <footer class="panel-footer">
+      <div class="container">
+        <div class="row">
+          <section id="telefone" class="col-sm-3">
+            <span>Contatos:</span><br />
+            (35) 3471-2123<br />
+            (35) 3471-4244 <br />
+            <a href="https://wa.me/5535988054435" target="_blank"
+              ><img src="images/whatsapp-logo.png" id="whatsApplogo" /> Fale
+              conosco no WhatsApp</a
+            ><br />
+            eletro@eletroteste.com.br <br />
+            <div class="social-media">
+              <a
+                href="https://www.facebook.com/eletrotestebrasil"
+                target="_blank"
+                ><img src="images/socialmedia-facebook.png" id="facelogo"
+              /></a>
+              <a href="https://www.instagram.com/eletroteste/" target="_blank"
+                ><img src="images/socialmedia-instagram.png" id="instagramlogo"
+              /></a>
+              <a
+                href="https://www.linkedin.com/company/eletrotestebrasil"
+                target="_blank"
+                ><img src="images/socialmedia-linkedin.png" id="linkedinlogo"
+              /></a>
             </div>
-          <hr class="visible-xs">
-        </section>
-        <section id="pagamento" class="col-sm-3">
-          <span>Aceitamos:</span><br> 
-          Todos cartões de crédito<br>
-          <a href="http://www.bb.com.br/portalbb/page44,108,3221,8,0,1,2.bb" target="_blank">Financiamento PROGER</a><br> 
-          <a href="https://www.cartaobndes.gov.br/cartaobndes/" target="_blank">FINAME e Cartão BNDES</a><br>
-          <a href="https://www.cartaobndes.gov.br/cartaobndes/" target="_blank"><img src="images/cartao-bndes.png" id="cartaobndes_logo"></a>
-          <hr class="visible-xs">
-        </section>
-        <section id="endereco" class="col-sm-3">
-          <span>Endereço:</span><br>
-            Rua José Pinto Vilela, 474 - Centro<br>
-            Santa Rita do Sapucaí - MG <br> 37540-000 <br>
-            <hr class="visible-xs">
-        </section>
-        <section id="horas" class="col-sm-3">
-          <span>Horário de Funcionamento:</span><br>
-            Segunda a Quinta: <br>
-            07:00h às 12:00h - 13:25h às 17:25h<br>
-            Sexta-feira: <br>
-            07:00h às 12:00h - 13:25h às 16:25h<br>
-        </section>
-      </div><!-- End of row -->
-      <div class="text-center">&copy;Copyright Eletroteste Ind. e Com. LTDA</div>
-    </div><!-- End of container -->
-  </footer>
-  
-   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script> 
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            <hr class="visible-xs" />
+          </section>
+          <section id="pagamento" class="col-sm-3">
+            <span>Aceitamos:</span><br />
+            Todos cartões de crédito<br />
+            <a
+              href="https://www.cartaobndes.gov.br/cartaobndes/"
+              target="_blank"
+              >FINAME e Cartão BNDES</a
+            ><br />
+            <a
+              href="https://www.cartaobndes.gov.br/cartaobndes/"
+              target="_blank"
+              ><img src="images/cartao-bndes.png" id="cartaobndes_logo"
+            /></a>
+            <hr class="visible-xs" />
+          </section>
+          <section id="endereco" class="col-sm-3">
+            <span>Endereço:</span><br />
+            Rua José Pinto Vilela, 474 - Centro<br />
+            Santa Rita do Sapucaí - MG <br />
+            37536-094 <br />
+            <hr class="visible-xs" />
+          </section>
+          <section id="horas" class="col-sm-3">
+            <span>Horário de Funcionamento:</span><br />
+            Segunda a Quinta: <br />
+            07:00h às 12:00h - 13:30h às 17:30h<br />
+            Sexta-feira: <br />
+            07:00h às 12:00h - 13:30h às 16:30h<br />
+          </section>
+        </div>
+        <!-- End of row -->
+        <div class="text-center">
+          &copy;Copyright Eletroteste Ind. e Com. LTDA
+        </div>
+      </div>
+      <!-- End of container -->
+    </footer>
 
-  ga('create', 'UA-27463993-1', 'auto');
-  ga('send', 'pageview');
-</script>
-</body>
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-27463993-1", "auto");
+      ga("send", "pageview");
+    </script>
+  </body>
 </html>

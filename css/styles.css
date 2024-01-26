@@ -2,92 +2,101 @@
 body {
   font-size: 14px;
   color: white;
-  background-color: #E7E7E7;
-  font-family: 'Oxygen', sans-serif;
+  background-color: #f3f4f6;
+  font-family: "Oxygen", sans-serif;
 }
 #header-nav {
-  background-color: #495678;
+  background-color: #0284c7;
   border-radius: 0;
   border: 0;
 }
 .navbar-default .navbar-collapse {
-	padding-bottom: 10px;
-    padding-top: 10px;
-    padding-right: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 0px;
 }
-.navbar-default .navbar-nav>li>a {
-	color: white;
-	text-align: center;
-	font-size: 1.2em;
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
 }
-.navbar-default .navbar-nav>li>a:hover {
-	color: black;
+.navbar-default .navbar-nav > li > a:hover {
+  color: black;
 }
 #logo-img {
-	background: url('../images/Logo_250px.png') no-repeat;
-	width: 250px;
-	height: 46px;
-	margin: 20px 15px 10px 0;
+  background: url("../images/Logo_250px.png") no-repeat;
+  width: 250px;
+  height: 46px;
+  margin: 20px 15px 10px 0;
 }
 .navbar-header button.navbar-toggle {
-	border: 1px solid white;
-	margin-top: 20px;
+  border: 1px solid white;
+  margin-top: 20px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
+  background-color: white;
 }
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-	background-color: #3C648E;
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #0369a1;
 }
-.navbar-default .navbar-nav>.active>a {
-	color: white;
-  	background-color: #3C648E;
+.navbar-default .navbar-nav > .active > a {
+  color: white;
+  background-color: #0369a1;
 }
-.navbar-default .navbar-nav>.active>a:hover {
-	color: black;
-	background-color: #3C648E;
+.navbar-default .navbar-nav > .active > a:hover {
+  color: black;
+  background-color: #0369a1;
 }
 /*END Header*/
 
 /*Footer*/
 .panel-footer {
-  background-color: #495678;
-	font-size: 12px;
+  background-color: #0284c7;
+  font-size: 12px;
 }
 section span {
-	font-weight: bold;
-	font-size: 1.2em;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 div.text-center {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 .panel-footer div hr {
-	border-color: white;	  /*Chrome*/
-	background-color: white;  /*Safari e Firefox*/
-	width: 50%;
-	border-top: 2px solid white;
+  border-color: white; /*Chrome*/
+  background-color: white; /*Safari e Firefox*/
+  width: 50%;
+  border-top: 2px solid white;
 }
 section#pagamento a {
-	color: white;
-	text-decoration: underline;
+  color: white;
+  text-decoration: underline;
 }
 section#telefone a {
-	color: white;
+  color: white;
 }
-#endereco, #horas, #telefone, #pagamento {
-	line-height: 2;
+#endereco,
+#horas,
+#telefone,
+#pagamento {
+  line-height: 2;
 }
-img#instagramlogo, img#facelogo, img#linkedinlogo, img#whatsApplogo {
-	height: 35px;
-    border: 2px solid #495678;
+img#instagramlogo,
+img#facelogo,
+img#linkedinlogo,
+img#whatsApplogo {
+  height: 35px;
+  border: 2px solid #0284c7;
 }
 /*END Footer*/
 /*Main Page*/
 .container .jumbotron {
-  box-shadow: 0 0 50px #E7E7E7;
-  border: 2px solid #E7E7E7;
+  box-shadow: 0 0 50px #f3f4f6;
+  border: 2px solid #f3f4f6;
 }
-#produto-tile, #contato-tile, #mapa-tile {
+#produto-tile,
+#contato-tile,
+#mapa-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -95,18 +104,22 @@ img#instagramlogo, img#facelogo, img#linkedinlogo, img#whatsApplogo {
   border: 2px solid #7f7f7f;
   overflow: hidden;
 }
-#produto-tile:hover, #contato-tile:hover, #mapa-tile:hover {
+#produto-tile:hover,
+#contato-tile:hover,
+#mapa-tile:hover {
   box-shadow: 0 1px 5px 1px #004080;
 }
 #produto-tile {
-  background: url('../images/produto-tile.jpg') no-repeat;
+  background: url("../images/produto-tile.jpg") no-repeat;
   background-position: center;
 }
 #contato-tile {
-  background: url('../images/contato-tile.jpg') no-repeat;
+  background: url("../images/contato-tile.jpg") no-repeat;
   background-position: center;
 }
-#produto-tile span, #contato-tile span, #mapa-tile span {
+#produto-tile span,
+#contato-tile span,
+#mapa-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -116,235 +129,256 @@ img#instagramlogo, img#facelogo, img#linkedinlogo, img#whatsApplogo {
   text-transform: uppercase;
   background-color: #000;
   color: #fff;
-  opacity: .8;
+  opacity: 0.8;
 }
 /*END Main Page*/
 /*About PAGE*/
 div.panel-body p {
-	color: black;
+  color: black;
 }
- div.panel-body ul, div.panel-body li  {
-	color: black;
-	overflow: hidden;
+div.panel-body ul,
+div.panel-body li {
+  color: black;
+  overflow: hidden;
 }
-.panel-default>.panel-heading {
-	background-color: #495678;
-	color: white;
-	text-transform: uppercase;
+.panel-default > .panel-heading {
+  background-color: #0284c7;
+  color: white;
+  text-transform: uppercase;
 }
 p.navbar-text {
-	text-align: justify;
+  text-align: justify;
 }
-img#madeinbrazil, img#sindivel, img#iso9000 {
-	height: 150px;
-	margin-left: 20px;
-	margin-right: 20px;
+img#madeinbrazil,
+img#sindivel,
+img#iso9000 {
+  height: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 div#FotosPaginaSobre {
-	text-align: center;
-	margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 /*END About PAGE*/
 /*Assitencia*/
- div.panel-body ol, div.panel-body li  {
-	color: black;
-	overflow: hidden;
-}	
+div.panel-body ol,
+div.panel-body li {
+  color: black;
+  overflow: hidden;
+}
 /*Fim Assistencia*/
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-	/*Header*/
-	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-	    margin-left: -15px;
-	    margin-top: 5px;
-	    padding: 0;
-	}
-	/*End Header*/
-	/*FOOTER*/
-	/*END FOOTER*/
-	/*Home Page*/
-	.container .jumbotron {
-    background: url('../images/jumbotron_1200.jpg') no-repeat;
-    height: 472px;
-  	}
-  	/*END Home Page*/
-  	/*Product Page*/
-	div.thumbnail {
-		height: 510px;
-	}
-	a.btn.btn-primary {
-		position: absolute;
-		bottom: 30px;
-	}
-	/*END Product Page*/
-	/*Contact Page*/
-	div#contact-tel.thumbnail, div#contact-mail.thumbnail, div#contact-end.thumbnail {
-		height: 520px;
-	}
-	/*End Contact Page*/
+  /*Header*/
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+    margin-top: 5px;
+    padding: 0;
+  }
+  /*End Header*/
+  /*FOOTER*/
+  /*END FOOTER*/
+  /*Home Page*/
+  .container .jumbotron {
+    background: url("../images/jumbotron_1200.jpg") no-repeat;
+    height: 470px;
+  }
+  /*END Home Page*/
+  /*Product Page*/
+  div.thumbnail {
+    height: 510px;
+  }
+  a.btn.btn-primary {
+    position: absolute;
+    bottom: 30px;
+  }
+  /*END Product Page*/
+  /*Contact Page*/
+  div#contact-tel.thumbnail,
+  div#contact-mail.thumbnail,
+  div#contact-end.thumbnail {
+    height: 520px;
+  }
+  /*End Contact Page*/
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-	/*Eletroteste Brand*/
-	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-	    margin-left: -15px;
-	    margin-top: 5px;
-	    padding: 0;
-	}
-	/*FOOTER*/
-	/*END FOOTER*/	
-	/*Home Page*/
-	.container .jumbotron {
-	    background: url('../images/jumbotron_992.jpg') no-repeat;
-	    height: 390px;
-	}
-  	/* End Home Page */
-  	/*Product Page*/
-	div.thumbnail {
-		height: 450px;
-	}
-	a.btn.btn-primary {
-		position: absolute;
-		bottom: 30px;
-		padding: 3px 6px;
-
-	}
-	/*END Product Page*/
-	/*Contact Page*/
-	div#contact-tel.thumbnail, div#contact-mail.thumbnail, div#contact-end.thumbnail {
-		height: 480px;
-	}
-	/*End Contact Page*/
+  /*Eletroteste Brand*/
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+    margin-top: 5px;
+    padding: 0;
+  }
+  /*FOOTER*/
+  /*END FOOTER*/
+  /*Home Page*/
+  .container .jumbotron {
+    background: url("../images/jumbotron_992.jpg") no-repeat;
+    height: 388px;
+  }
+  /* End Home Page */
+  /*Product Page*/
+  div.thumbnail {
+    height: 450px;
+  }
+  a.btn.btn-primary {
+    position: absolute;
+    bottom: 30px;
+    padding: 3px 6px;
+  }
+  /*END Product Page*/
+  /*Contact Page*/
+  div#contact-tel.thumbnail,
+  div#contact-mail.thumbnail,
+  div#contact-end.thumbnail {
+    height: 480px;
+  }
+  /*End Contact Page*/
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	/*Eletroteste Brand*/
-	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-	    margin-left: -15px;
-	    margin-top: 5px;
-	    padding: 0;
-	}
-	#logo-img {
-		background: url('../images/Logo_250px.png') no-repeat;
-		width: 250px;
-		height: 46px;
-		margin: 27px 15px 10px 0;
-	}
-	.navbar-default .navbar-nav>li>a {
-		font-size: 1.0em;
-	}
-	/*FOOTER*/
-	section span {
-	font-size: 1em;
-}
-	/*END FOOTER*/	
-	/*Home Page*/
-  	.container .jumbotron {
-    	background: url('../images/jumbotron_768.jpg') no-repeat;
-    	height: 302px;
-  	}
+  /*Eletroteste Brand*/
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+    margin-top: 5px;
+    padding: 0;
+  }
+  #logo-img {
+    background: url("../images/Logo_250px.png") no-repeat;
+    width: 250px;
+    height: 46px;
+    margin: 27px 15px 10px 0;
+  }
+  .navbar-default .navbar-nav > li > a {
+    font-size: 1em;
+  }
+  /*FOOTER*/
+  section span {
+    font-size: 1em;
+  }
+  /*END FOOTER*/
+  /*Home Page*/
+  .container .jumbotron {
+    background: url("../images/jumbotron_768.jpg") no-repeat;
+    height: 300px;
+  }
   /* End Home Page */
   /*Product Page*/
-	div.thumbnail {
-		height: 480px;
-	}
-	a.btn.btn-primary {
-		position: absolute;
-		bottom: 30px;
-		padding: 3px 6px;
-	}
-	/*END Product Page*/
-	/*Contact Page*/
-	div#contact-tel.thumbnail, div#contact-mail.thumbnail, div#contact-end.thumbnail {
-		height: 420px;
-		font-size: 0.9em;
-		text-align: center;
-	}
-	/*End Contact Page*/	
+  div.thumbnail {
+    height: 480px;
+  }
+  a.btn.btn-primary {
+    position: absolute;
+    bottom: 30px;
+    padding: 3px 6px;
+  }
+  /*END Product Page*/
+  /*Contact Page*/
+  div#contact-tel.thumbnail,
+  div#contact-mail.thumbnail,
+  div#contact-end.thumbnail {
+    height: 420px;
+    font-size: 0.9em;
+    text-align: center;
+  }
+  /*End Contact Page*/
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-	/*HEADER*/
-	.navbar-default .navbar-brand {
-		padding: 0px;
-	}
-	#logo-img {
-		background: url('../images/Logo_200px.png') no-repeat;
-		width: 200px;
-		height: 37px;
-		margin: 12px 15px 5px 20px;
-	}
-	div.navbar-header {
-		margin-top: 15px;
-	    margin-bottom: 15px;
-	}
-	.navbar-default .navbar-nav>li>a {
-		font-size: 0.9em;
-	}
-	div#collapsable-nav.navbar-collapse {
-		border: 0;
-		padding: 0;
-	}
-	/*END HEADER*/
-	/*FOOTER*/
-	#telefone, #endereco, #horas, #pagamento {
-		text-align: center;
-	}
-	div.text-center {
-		margin-top: 20px;
-		font-size: 1.3em;
-	}
-	/*END FOOTER*/
-	/* HOME Page */
-	 .container .jumbotron {
-	    margin-top: 0;
-	    padding: 0;
-	}
-	#produto-tile, #contato-tile {
-		width: 360px;
-		margin: 0 auto 15px;
-	}
-	/*END Home*/
-	/*Contact Page*/
-	div#contact-tel.thumbnail, div#contact-mail.thumbnail, div#contact-end.thumbnail {
-		text-align: center;
-		background-color: #E7E7E7;
-		border: 2px solid #E7E7E7;
-	}
-	div#contact-tel.thumbnail {
-		height: 400px;
-	}
-	div#contact-mail.thumbnail {
-		height: 460px;
-	}
-	div#contact-end.thumbnail {
-		height: 380px;
-	}
-	/*End Contact Page*/
+  /*HEADER*/
+  .navbar-default .navbar-brand {
+    padding: 0px;
+  }
+  #logo-img {
+    background: url("../images/Logo_200px.png") no-repeat;
+    width: 200px;
+    height: 37px;
+    margin: 12px 15px 5px 20px;
+  }
+  div.navbar-header {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .navbar-default .navbar-nav > li > a {
+    font-size: 0.9em;
+  }
+  div#collapsable-nav.navbar-collapse {
+    border: 0;
+    padding: 0;
+  }
+  /*END HEADER*/
+  /*FOOTER*/
+  #telefone,
+  #endereco,
+  #horas,
+  #pagamento {
+    text-align: center;
+  }
+  div.text-center {
+    margin-top: 20px;
+    font-size: 1.3em;
+  }
+  /*END FOOTER*/
+  /* HOME Page */
+  .container .jumbotron {
+    margin-top: 0;
+    padding: 0;
+  }
+  #produto-tile,
+  #contato-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+  /*END Home*/
+  /*Contact Page*/
+  div#contact-tel.thumbnail,
+  div#contact-mail.thumbnail,
+  div#contact-end.thumbnail {
+    text-align: center;
+    background-color: #f3f4f6;
+    border: 2px solid #f3f4f6;
+  }
+  div#contact-tel.thumbnail {
+    height: 400px;
+  }
+  div#contact-mail.thumbnail {
+    height: 460px;
+  }
+  div#contact-end.thumbnail {
+    height: 380px;
+  }
+  /*End Contact Page*/
 }
 
 /********** Super Extra small devices only (e.g., Iphone 4) **********/
 @media (max-width: 479px) {
-  	/* Home Page */
-	  #produto-tile, #contato-tile {
-	    width: 280px;
-	    margin: 0 auto 15px;
-	  }
-	/*Contact Page*/
-	div#contact-tel.thumbnail, div#contact-mail.thumbnail, div#contact-end.thumbnail {
-		font-size: 0.9em;
-	}
-	div#contact-tel.thumbnail {
-		height: 380px;
-	}
-	div#contact-mail.thumbnail {
-		height: 460px;
-	}
-	div#contact-end.thumbnail {
-		height: 360px;
-	}
-	/*End Contact Page*/	  
+  /* Home Page */
+  #produto-tile,
+  #contato-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+  /*Contact Page*/
+  div#contact-tel.thumbnail,
+  div#contact-mail.thumbnail,
+  div#contact-end.thumbnail {
+    font-size: 0.9em;
+  }
+  div#contact-tel.thumbnail {
+    height: 380px;
+  }
+  div#contact-mail.thumbnail {
+    height: 460px;
+  }
+  div#contact-end.thumbnail {
+    height: 360px;
+  }
+  /*End Contact Page*/
 }
