@@ -1,3 +1,16 @@
+/* Botão ZAP flutuante */
+#zap-flutuante {
+  position: fixed;
+  bottom: 4%;
+  right: 1%;
+  background: url("../images/whatsapp-logo.png") no-repeat;
+  width: 50px;
+  height: 50px;
+}
+#zap-flutuante:hover {
+  transform: scaleY(1.08) scaleX(1.08);
+}
+
 /*Header*/
 body {
   font-size: 14px;
@@ -168,6 +181,19 @@ div.panel-body li {
   overflow: hidden;
 }
 /*Fim Assistencia*/
+
+/********** Extra Large devices only **********/
+@media (min-width: 1601px) {
+  /*Zap Flutuante*/
+  div#zap-flutuante {
+    background: url("../images/icone_chama_no_zap_150px.png") no-repeat;
+    width: 150px;
+    height: 50px;
+    bottom: 2%;
+    right: 1%;
+  }
+  /*END Zap Flutuante*/
+}
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   /*Header*/
@@ -337,22 +363,12 @@ div.panel-body li {
     margin: 0 auto 15px;
   }
   /*END Home*/
-  /*Contact Page*/
+   /*Contact Page*/
   div#contact-tel.thumbnail,
   div#contact-mail.thumbnail,
   div#contact-end.thumbnail {
-    text-align: center;
-    background-color: #f3f4f6;
-    border: 2px solid #f3f4f6;
-  }
-  div#contact-tel.thumbnail {
-    height: 400px;
-  }
-  div#contact-mail.thumbnail {
-    height: 460px;
-  }
-  div#contact-end.thumbnail {
-    height: 380px;
+    font-size: 0.9em;
+    height: fit-content;
   }
   /*End Contact Page*/
 }
@@ -370,15 +386,7 @@ div.panel-body li {
   div#contact-mail.thumbnail,
   div#contact-end.thumbnail {
     font-size: 0.9em;
-  }
-  div#contact-tel.thumbnail {
-    height: 380px;
-  }
-  div#contact-mail.thumbnail {
-    height: 460px;
-  }
-  div#contact-end.thumbnail {
-    height: 360px;
+    height: fit-content;
   }
   /*End Contact Page*/
 }
