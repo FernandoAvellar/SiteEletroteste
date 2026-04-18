@@ -150,10 +150,12 @@ img#whatsApplogo {
 div.panel-body p {
   color: black;
 }
-div.panel-body ul,
-div.panel-body li {
+div.panel-body ul {
   color: black;
   overflow: hidden;
+}
+div.panel-body li {
+  color: black;
 }
 .panel-default > .panel-heading {
   background-color: #0284c7;
@@ -177,8 +179,7 @@ div#FotosPaginaSobre {
 }
 /*END About PAGE*/
 /*Assitencia*/
-div.panel-body ol,
-div.panel-body li {
+div.panel-body ol {
   color: black;
   overflow: hidden;
 }
@@ -218,7 +219,7 @@ div.panel-body li {
   div.thumbnail {
     height: 510px;
   }
-  a.btn.btn-primary {
+  div.thumbnail a.btn.btn-primary {
     position: absolute;
     bottom: 30px;
   }
