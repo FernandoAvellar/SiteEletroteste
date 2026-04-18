@@ -99,6 +99,7 @@ img#facelogo,
 img#linkedinlogo,
 img#whatsApplogo {
   height: 35px;
+  width: auto;
   border: 2px solid #0284c7;
 }
 /*END Footer*/
@@ -166,6 +167,7 @@ img#madeinbrazil,
 img#sindivel,
 img#iso9000 {
   height: 150px;
+  width: auto;
   margin-left: 20px;
   margin-right: 20px;
 }
